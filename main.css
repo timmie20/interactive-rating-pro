@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 3em 2em;
+  background-color: hsl(213, 19%, 18%);
+  gap: 2em;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(217, 12%, 63%);
+}
+h1 {
+  color: #fff;
+}
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  background-color: hsl(217, 12%, 63%);
+}
+
+.numbers-container .active2 {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.numbers-container div:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  transition: all 0.2s ease-in-out;
+}
+#submit-btn {
+  padding: .9em;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transition: all 0.2s ease-in-out;
+}
+
+.confirmation {
+  align-items: center;
+  display: none;
+}
+.feedback {
+  display: none;
+}
+
+.selected {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 1em;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(217, 12%, 63%);
+}
+
+.selected span {
+  color: #fff;
+}
+.img-container2 img {
+  width: 180px;
+}
+
+.texts {
+  text-align: center;
+}
+.texts h1 {
+  font-weight: 600;
+}
+
+.texts p{
+  margin-top: 1em;
+  line-height: 2em;
+}
+
+.active {
+  display: flex;
+}
+
